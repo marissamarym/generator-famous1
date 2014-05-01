@@ -1,0 +1,48 @@
+{
+  "name": "generator-famous",
+  "version": "0.2.17",
+  "description": "Create new Famo.us projects",
+  "license": "MPL v2",
+  "main": "app/index.js",
+  "repository": "famous/generator-famous",
+  "author": {
+    "name": "Myles Borins",
+    "email": "mborins@famo.us",
+    "url": "https://github.com/TheAlphaNerd"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app",
+    "opinionated",
+    "test",
+    "view"
+  ],  
+  "keywords": [
+    "yeoman-generator",
+    "famous",
+    "generator",
+    "boilerplate",
+    "grunt",
+    "bower"
+  ],
+  "dependencies": {
+    "chalk": "~0.4.0",
+    "lodash": "^2.4.1",
+    "shelljs": "^0.2.6",
+    "update-notifier": "^0.1.8",
+    "yeoman-generator": "~0.16.0",
+    "famous-metrics": "0.0.9"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "mocha-jshint": "0.0.7"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

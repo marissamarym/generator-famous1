@@ -1,0 +1,12 @@
+{
+  "generator-famous": {
+    "projectName": "MarissaDemoApp1",
+    "projectDesc": "This is pretty cool",
+    "authorLogin": "marissamary",
+    "author": {
+      "name": "Marissa Montgomery",
+      "email": "marissamarymontgomery@gmail.com"
+    },
+    "noTinfoil": true
+  }
+}
